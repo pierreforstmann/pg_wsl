@@ -1,0 +1,4 @@
+comment = 'pg_wsl - write to standby log from primary'
+default_version = '1.0'
+module_pathname = '$libdir/pg_wsl'
+relocatable = true
