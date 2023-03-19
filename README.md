@@ -49,7 +49,6 @@ Standby log should display something similar to:
 
 ```
 
-``
 
 
 
