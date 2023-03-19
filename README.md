@@ -24,12 +24,12 @@ Add in primary instance and standby instance:
 shared_preload_libraries='pg_wsl'
 ```
 
-Restart primary and standy instances with:
+Restart primary and standby instances with:
 ```
 pg_ctl stop
 pg_ctl start
 ```
-Install `pg_wsl` in primary instance:
+Create extension `pg_wsl` in primary instance:
 
 ```
 create extension pg_wsl;
